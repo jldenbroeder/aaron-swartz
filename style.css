@@ -16,7 +16,13 @@ body{
     /*border-width: 1 px;
     border-color: rgb(28, 28, 28);*/
 }
-
+.col_100
+{
+  width: 90%;
+}
+.texte-centre{
+  text-align: center;
+}
 
 .col_33
 {
@@ -31,12 +37,12 @@ body{
   color: blue;
 }
 h2{
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Exo 2', sans-serif;
   font-size: 10;
-  color: rgb(20, 20, 20);
+  color: rgb(121, 0, 4);
 }
 h3{
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Marck Script', cursive;
 }
 p
 {
