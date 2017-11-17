@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(206, 197, 238);
+
+}
+
+.conteneur
+{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; /* A CHANGER */
+    max-width: 750px;
+    min-width: 460px;
+    background-color: rgb(255, 255, 255);
+    /*border-width: 1 px;
+    border-color: rgb(28, 28, 28);*/
+}
+
+
+.col_33
+{
+  width: 33.33%;
+}
+.bleu-12 {
+  font-family: Times, "Times New Roman", Georgia, serif;
+  font-size: 12;
+  color: rgb(0, 21, 38);
+}
+.class-color {
+  color: blue;
+}
+h2{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10;
+  color: rgb(20, 20, 20);
+}
+h3{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+p
+{
+  font-family: Arial, Verdana, Impact, sans-serif;
+}
