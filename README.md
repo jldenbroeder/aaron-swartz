@@ -1,7 +1,7 @@
 # aaron-swartz
 
-* Jean Luc Denbroeder  
-** Page HTML/CSS présentant Aaron Swartz  
+*Jean Luc Denbroeder  
+**Page HTML/CSS présentant Aaron Swartz  
 Vendredi 17 novembre 2017
 Exercice 8 Summary
 
