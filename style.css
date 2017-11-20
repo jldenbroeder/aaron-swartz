@@ -72,8 +72,6 @@ line-height: 1.5;
   box-shadow: 2px 1px 2px #9d9d9d;
 }
 #circle {
-  width: 200px;
-  height: 200px;
   margin-top: 20px;
   background-image: url(images/aaron-nb-227x244-rond-cadre.png);
   background-repeat:no-repeat;
@@ -87,6 +85,40 @@ line-height: 1.5;
   border-style: solid;
   border-color: rgb(204, 204, 204);
 }
+#bouton{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  /* centrer horizontalement */
+  align-items: center;
+  -ms-flex-align: center;
+  /* centrer horizontalement */
+  align-items: center;
+  -ms-flex-align: center;
+  /*width:250px;*/
+  /*height:50px;*/
+  padding: 10px;
+  margin-bottom: 20px;
+  /* coins arrondis */
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: rgb(211, 85, 85);
+  font-size:120%;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 800;
+}
+#bouton a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  }
+#bouton a:hover{
+  color: rgb(236, 255, 83);
+  }
+
 .texte-centre{
   text-align: center;
 }
@@ -101,14 +133,7 @@ line-height: 1.5;
 {
   width: 33.33%;
 }
-.bleu-12 {
-  font-family: Times, "Times New Roman", Georgia, serif;
-  font-size: 12;
-  color: rgb(0, 21, 38);
-}
-.class-color {
-  color: blue;
-}
+
 h1 {
  font-size:200%;
  font-family: 'Exo 2', sans-serif;
