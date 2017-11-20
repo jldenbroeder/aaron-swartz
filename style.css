@@ -22,11 +22,11 @@ html, body {
   flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   /* centrer horizontalement */
+  justify-content: center;
+  -ms-flex-pack: center;
+  /* centrer verticalement */
   align-items: center;
   -ms-flex-align: center;
-  /* centrer verticalement */
-  /*justify-content: center;
-  -ms-flex-pack: center;*/
   background-color: rgb(206, 197, 238);
 }
 p
@@ -36,27 +36,12 @@ color: rgb(125, 125, 125);
 line-height: 1.5;
 }
 
-.row1{
+.row{
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-   /* l'un en dessous de l'autre */
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  /* chaque row à la ligne */
-  flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  /* centrer horizontalement */
-  align-items: center;
-  -ms-flex-align: center;
   width: 70%; /* A CHANGER */
   max-width: 750px;
   min-width: 460px;
@@ -70,6 +55,28 @@ line-height: 1.5;
   -moz-box-shadow: 2px 1px 2px #9d9d9d;
   -webkit-box-shadow: 2px 1px 2px #9d9d9d;
   box-shadow: 2px 1px 2px #9d9d9d;
+}
+.align-vertical{
+  /* l'un en dessous de l'autre */
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+ -webkit-flex-direction: column;
+ -moz-box-orient: vertical;
+ -moz-box-direction: normal;
+ -ms-flex-direction: column;
+ flex-direction: column;
+ /* centrer verticalement */
+ align-items: center;
+ -ms-flex-align: center;
+}
+.align-horizontal{
+  /* l'un à côté de l'autre */
+ -webkit-flex-direction: row;
+ -ms-flex-direction: row;
+ flex-direction: row;
+ /* centrer horizontalement */
+ justify-content: center;
+ -ms-flex-pack: center;
 }
 #circle {
   margin-top: 20px;
@@ -118,7 +125,17 @@ line-height: 1.5;
 #bouton a:hover{
   color: rgb(236, 255, 83);
   }
-
+.bloc-icone{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.icone-fontawesome{
+  color: rgb(236, 255, 83);
+}
+.bloc-grow{
+  flex: 2;
+}
 .texte-centre{
   text-align: center;
 }
@@ -129,6 +146,15 @@ line-height: 1.5;
   padding-left: 20px;
   padding-right: 20px;
 }
+.bloc-icone{
+  width: 200px;
+  height: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(83, 245, 255);
+}
+/*p.titre-icone{
+}*/
 .col_33
 {
   width: 33.33%;
