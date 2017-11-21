@@ -132,7 +132,7 @@ h3{
 }
 .col_30{
   width: 25%;
-	min-width: 200px;
+	/*min-width: 200px;*/
 	padding: 28px 10px 0px 20px;
   border-style: solid;
   border: 1px;
